@@ -17,6 +17,7 @@ class VirtViewer < Formula
   depends_on "libvirt-glib"
   depends_on "shared-mime-info"
   depends_on "spice-gtk"
+  depends_on "gobject-introspection"
 
   patch :DATA
 
