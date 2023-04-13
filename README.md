@@ -9,7 +9,7 @@ The formulae for `virt-manager` and several of its dependencies have since been 
 
 ## Usage
 
-    brew tap jeffreywildman/homebrew-virt-manager
+    brew tap uamarchuan/homebrew-virt-manager
     brew install virt-viewer
     virt-viewer --version
 
