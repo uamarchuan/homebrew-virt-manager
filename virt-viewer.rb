@@ -22,7 +22,7 @@ class VirtViewer < Formula
   patch :DATA
 
   def install
-    system "meson", "setup", "builddir", *std_meson_args
+    system "meson", "setup", "builddir", *std_meson_args, "-Dspice=enabled"
     system "ninja", "-C", "builddir", "install", "-v"
   end
 
