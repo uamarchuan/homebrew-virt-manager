@@ -9,6 +9,7 @@ class VirtViewer < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
+  depends_on "gobject-introspection" => :build
 
   depends_on "desktop-file-utils"
   depends_on "glib"
@@ -17,7 +18,6 @@ class VirtViewer < Formula
   depends_on "libvirt-glib"
   depends_on "shared-mime-info"
   depends_on "spice-gtk"
-  depends_on "gobject-introspection"
 
   patch :DATA
 
